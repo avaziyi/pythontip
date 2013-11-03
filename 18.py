@@ -29,10 +29,11 @@ def Sol(a,b):
                 result.append([i,new,i+new])
                 
     return result
-a=3
-b=8
+a = 3
+b = 90
 s = Sol(a,b)
 #sorted(s, key=itemgetter(2))
+#https://wiki.python.org/moin/HowTo/Sorting/
 s.sort(key=lambda x: int(x[2]))
 try:
     for i in s[0][0:2]:
