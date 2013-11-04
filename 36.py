@@ -32,7 +32,7 @@ def LUCS(L):
                 sum1.append(sum1[i-2]+L[i])
             else:
                 sum1.append(sum1[i-1])
-    return sum1[len(L)-1]
+    return max(sum1[len(L)-1],0)
     
-L=[-2]
+L=[-2,-2]
 print LUCS(L)

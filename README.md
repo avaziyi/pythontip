@@ -12,3 +12,8 @@ http://www.pythontip.com/coding/code_oj?page=1
 
 英雄榜：
 http://www.pythontip.com/coding/ojRank
+
+测试细节：
+
+第36题：
+测试非连续子序列，如果L=[-2,-2]，最大非连续子序列应该取空集，返回结果为0，而不是-2。
